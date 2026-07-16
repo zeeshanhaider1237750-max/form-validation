@@ -13,5 +13,7 @@
 3. Vanilla Javascript
 </p>
 
+<hr>
+
 <h2>Author/Contact</h2>
 <p>Author: Zeeshan Haider</p>
