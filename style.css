@@ -15,8 +15,8 @@ body{
     display: flex;
     flex-direction: column;
     background-color: rgb(226, 237, 247);
-    width: 100vw;
-    height: 60vh;
+    width: 100%;
+    height: 60%;
     padding: 20px;
     justify-content: center;
     align-items: center;
@@ -24,9 +24,11 @@ body{
 #rowOne, #rowTwo, #rowThree, #rowFour, #rowFive{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
     gap: 3vw;
 }
-#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine{
     display: flex;
     flex-direction: column;
     gap: 0.3vh;
@@ -36,4 +38,19 @@ body{
 }
 input{
     width: 100%;
+}
+#ten{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    gap: 10px;
+    justify-content: baseline;
+    align-items: flex-end;
+}
+#reset, #submit{
+    flex: 1;
+    padding: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 4px;
 }
