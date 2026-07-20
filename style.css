@@ -31,10 +31,13 @@ body{
 #one, #two, #three, #four, #five, #six, #seven, #eight, #nine{
     display: flex;
     flex-direction: column;
-    gap: 0.3vh;
+    gap: 0.2vh;
     justify-content: center;
     align-items: flex-start;
     width: 250px;
+    min-height: 90px;
+    position: relative;
+    /* padding-bottom: 20px; */
 }
 input{
     width: 100%;
@@ -53,4 +56,19 @@ input{
     cursor: pointer;
     border: 1px solid black;
     border-radius: 4px;
+}
+.error{
+    margin-bottom: 10px;
+    background-color: #ffebee;
+    color: black;
+    padding: 4px;
+    border: 2px solid red;
+    font-size: 12px;
+}
+#one span, #two span, #three span, #four span, #five span, #six span, #seven span, #eight span, #nine span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: red;
+    font-size: 15px;
 }
